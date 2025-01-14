@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Primario */
+    background-color: #302f2f; /* Primario */
     color: #FFFFFF; /* Texto */
 }
 
@@ -11,7 +11,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 #encabezado > ul > li > a:hover {
-    color: #2D2D2D; /* Secundario */
+    color: #383838; /* Secundario */
     background-color: #DAA520; /* Acento */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(218, 165, 32, 0.5); /* Sombra */
@@ -45,7 +45,7 @@ body {
 #perfil {
     display: flex;
     justify-content: center;
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     padding: 2em;
     border-bottom: 1px solid #B3B3B3; /* Destacado */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
@@ -97,7 +97,7 @@ body {
     border-radius: 10px;
     margin: 1em;
     flex-wrap: wrap;
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
@@ -145,7 +145,7 @@ body {
     margin: 1em;
     border: 1px solid #B3B3B3; /* Destacado */
     border-radius: 10px;
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
@@ -154,6 +154,7 @@ body {
     height: 13em;
     margin: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
+    object-fit: cover;
 }
 
 #educacion {
@@ -168,7 +169,7 @@ body {
     display: flex;
     margin-top: 1.5em;
     padding: 1.5em;
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
@@ -215,7 +216,7 @@ body {
 }
 
 #sobre-mi > div {
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     border: 1px solid #B3B3B3; /* Destacado */
     width: 70%;
     border-radius: 10px;
@@ -255,6 +256,15 @@ body {
     border-radius: 10px;
     height: 1em;
     padding: 0.5em;
-    background-color: #2D2D2D; /* Secundario */
+    background-color: #383838; /* Secundario */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
 }
+
+#redes > a > img, .proyecto > div > a > img,#instituto > div > a > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
