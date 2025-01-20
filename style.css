@@ -2,8 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #302f2f; /* Primario */
-  color: #ffffff; /* Texto */
+  background-color: #302f2f; 
+  color: #ffffff; 
 }
 
 ul {
@@ -70,7 +70,7 @@ ul > li > a:hover {
 
 #perfil > div > h1 {
   font-size: 40px;
-  color: #ffffff; /* Texto */
+  color: #ffffff; 
   margin-bottom: 10px;
 }
 
@@ -122,7 +122,7 @@ ul > li > a:hover {
 
 .proyecto > div > h2 {
   font-size: 30px;
-  color: #ffffff; /* Texto */
+  color: #ffffff; 
   margin-bottom: 10px;
 }
 
@@ -195,7 +195,7 @@ ul > li > a:hover {
 
 #educacion > div > div > h2 {
   font-size: 30px;
-  color: #ffffff; /* Texto */
+  color: #ffffff; 
   margin-bottom: 10px;
 }
 
@@ -320,7 +320,7 @@ h1 > img{
 
 .certificado > div > h2 {
   font-size: 30px;
-  color: #ffffff; /* Texto */
+  color: #ffffff; 
   margin-bottom: 10px;
 }
 
